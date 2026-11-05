@@ -1,9 +1,11 @@
 import React from "react";
 
-function Home() {
+function Home({color, name, city}) {
     return (
         <div id="home">
-            Home!
+            <h1 style={{ color: color }}>
+                {name} is a web Developer from {city}
+            </h1>
         </div>
     );
 }
