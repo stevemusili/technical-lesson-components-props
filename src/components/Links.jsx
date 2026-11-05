@@ -2,7 +2,9 @@ import React from "react";
 
 function Links() {
     return (
-        Links!
+        <div id="links">
+            Links!
+        </div>
     );
 }
 
