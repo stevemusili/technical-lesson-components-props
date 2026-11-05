@@ -1,11 +1,18 @@
 import React from "react";
+import NavBar from "./NavBar";
+import Home from "./Home";
+import About from "./About";
+
+// pass this data down as props to the child component(s) that need it1
+import user from "../data/user";
+console.log(user);
 
 function App() {
   return (
     <div>
-      {/* add the <Navbar> component here */}
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <NavBar />
+      <Home />
+      <About />
     </div>
   );
 }
